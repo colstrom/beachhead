@@ -32,7 +32,7 @@ def check(name)
   {
     name: name,
     github: translate(github_available?(name)),
-    twitter: translate(twitter_available?(name)),
+    twitter: translate(twitter_available?(name))
   }
 end
 
