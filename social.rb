@@ -5,7 +5,7 @@ require 'formatador'
 
 def agent
   @agent ||= Mechanize.new.tap do |agent|
-    agent.user_agent_alias = "Mac Safari"
+    agent.user_agent_alias = 'Mac Safari'
   end
 end
 
